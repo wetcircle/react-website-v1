@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import './DappSection';
-
+import {Button} from '../components/Button';
 
 
 function DappSection() {
@@ -29,6 +29,18 @@ function DappSection() {
           <span style = {{fontSize: '2em'}}>Total Nodes Owned</span>
         </div>
 
+      </div>
+      <div className='container'>
+        <div className='col'>
+          <span style = {{fontSize: '2em', color: 'gray'}}>0 LVT</span>
+          <br />
+          <span style = {{fontSize: '2em'}}>My rewards </span>
+          <br />
+          <br />
+          <Button buttonStyle='btn--outline'>Claim</Button>
+          <Button buttonStyle='btn--outline'>Compound</Button>
+
+        </div>
       </div>
     </div>
   );
