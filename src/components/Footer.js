@@ -10,7 +10,7 @@ function Footer() {
           <div class='footer-link-items'>
             <h2>About Us</h2>
             <Link to='/dapp'>Docs</Link>
-            <Link to='/'>Investors</Link>
+            <Link to='/'>Team</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
@@ -23,7 +23,7 @@ function Footer() {
             <h2>Social Media</h2>
             <Link to='/'>Discord</Link>
             <Link to='/'>Twitter</Link>
-          </div>
+            <Link to='/'>Telegram</Link>          </div>
         </div>
       </div>
       <section class='social-media'>
@@ -60,14 +60,7 @@ function Footer() {
             >
               <i class='fab fa-twitter' />
             </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
+
           </div>
         </div>
       </section>
